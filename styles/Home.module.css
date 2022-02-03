@@ -1,6 +1,7 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  color: #0070f3;
+  /* padding: 0 0.5rem; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,16 +11,18 @@
 
 .main {
   padding: 5rem 0;
+  background-color: #11437c;
+  background: url("../Assets/fadecode.jpeg") no-repeat 50% fixed;
+  background-size: cover;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
-
 .footer {
   width: 100%;
-  height: 100px;
+  height: 30pxsll;
   border-top: 1px solid #eaeaea;
   display: flex;
   justify-content: center;
@@ -82,7 +85,8 @@
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
-  color: inherit;
+  color: whitesmoke;
+  background-color: #11437c;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
@@ -118,4 +122,8 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.navigationBar {
+  background-color: bisque;
 }
