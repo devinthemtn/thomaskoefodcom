@@ -17,8 +17,16 @@ export default function NavigationBar() {
               Blog
             </Link>
           </Menu.Item>
-          <Menu.Item as="a">About Me</Menu.Item>
-          <Menu.Item as="a">Apps</Menu.Item>
+          <Menu.Item as="a">
+            <Link className="item" href="/aboutme">
+              About Me
+            </Link>
+          </Menu.Item>
+          <Menu.Item as="a">
+            <Link className="item" href="/apps">
+              Apps
+            </Link>
+          </Menu.Item>
 
           <Dropdown item simple text="Links">
             <Dropdown.Menu>
