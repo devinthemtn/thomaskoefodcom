@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
-import "../styles/globals.css";
 import "semantic-ui-css/semantic.css";
 import NavigationBar from "../Components/NavigationBar";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (

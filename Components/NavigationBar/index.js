@@ -7,22 +7,22 @@ export default function NavigationBar() {
     <div className={styles.navigationBar}>
       <Menu inverted>
         <Container>
-          <Menu.Item as="a">
+          <Menu.Item className="nav-item">
             <Link className="item" href="/">
               home
             </Link>
           </Menu.Item>
-          <Menu.Item as="a">
+          <Menu.Item className="nav-item">
             <Link className="item" href="/blog">
               Blog
             </Link>
           </Menu.Item>
-          <Menu.Item as="a">
+          <Menu.Item className="nav-item">
             <Link className="item" href="/aboutme">
               About Me
             </Link>
           </Menu.Item>
-          <Menu.Item as="a">
+          <Menu.Item className="nav-item">
             <Link className="item" href="/apps">
               Apps
             </Link>
