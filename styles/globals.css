@@ -7,6 +7,10 @@ body {
   
 }
 
+.page-main-content {
+  background-color: aliceblue;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -46,4 +50,9 @@ a {
   background-color: #11437c;
   background: url("../Assets/fadecode.jpeg") no-repeat 50% fixed;
   background-size: cover;
+}
+
+.markdownDoc {
+  background-color: aqua;
+  border: #11437c 1px solid;
 }
